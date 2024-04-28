@@ -1,6 +1,6 @@
 import css from "./Contact.module.css";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsAPI";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ data: { id, number, name } }) => {
   const dispatch = useDispatch();
