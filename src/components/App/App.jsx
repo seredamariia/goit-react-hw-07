@@ -6,7 +6,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { selectError, selectLoading } from "../../redux/selectors";
-import { fetchContacts } from "../../redux/contactsAPI";
+import { fetchContacts } from "../../redux/contactsOps";
 import { ColorRing } from "react-loader-spinner";
 
 function App() {
